@@ -1,0 +1,8 @@
+prefix=/home/test/demo/devel
+
+Name: srv_pkg
+Description: Description of srv_pkg
+Version: 0.0.0
+Cflags: -I/home/test/demo/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

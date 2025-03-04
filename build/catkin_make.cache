@@ -1,2 +1,2 @@
-atr_pkg:person_pkg:ssr_pkg
--DCATKIN_DEVEL_PREFIX=/home/test/demo/devel -DCMAKE_INSTALL_PREFIX=/home/test/demo/install -G Unix Makefiles
+atr_pkg:person_pkg:srv_pkg:ssr_pkg
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/test/demo/devel -DCMAKE_INSTALL_PREFIX=/home/test/demo/install -G Unix Makefiles
