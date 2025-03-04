@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="person_pkg" name="pub_define" type="pub_define_node" output="screen"/>
+    <node pkg="person_pkg" name="sub_define" type="sub_define_node" output="screen"/>
+</launch>
