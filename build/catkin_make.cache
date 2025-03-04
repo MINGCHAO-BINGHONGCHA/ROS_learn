@@ -1,0 +1,2 @@
+atr_pkg:ssr_pkg
+-DCATKIN_DEVEL_PREFIX=/home/test/demo/devel -DCMAKE_INSTALL_PREFIX=/home/test/demo/install -G Unix Makefiles
