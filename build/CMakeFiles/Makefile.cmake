@@ -27,6 +27,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "srv_pkg/cmake/srv_pkg-genmsg.cmake"
   "ssr_pkg/catkin_generated/ordered_paths.cmake"
   "ssr_pkg/catkin_generated/package.cmake"
+  "tortoise_pose/catkin_generated/ordered_paths.cmake"
+  "tortoise_pose/catkin_generated/package.cmake"
   "tortoise_spin_pkg/catkin_generated/ordered_paths.cmake"
   "tortoise_spin_pkg/catkin_generated/package.cmake"
   "/home/test/demo/devel/share/person_pkg/cmake/person_pkg-msg-paths.cmake"
@@ -40,6 +42,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/test/demo/src/srv_pkg/package.xml"
   "/home/test/demo/src/ssr_pkg/CMakeLists.txt"
   "/home/test/demo/src/ssr_pkg/package.xml"
+  "/home/test/demo/src/tortoise_pose/CMakeLists.txt"
+  "/home/test/demo/src/tortoise_pose/package.xml"
   "/home/test/demo/src/tortoise_spin_pkg/CMakeLists.txt"
   "/home/test/demo/src/tortoise_spin_pkg/package.xml"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
@@ -233,6 +237,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "person_pkg/CMakeFiles/CMakeDirectoryInformation.cmake"
   "srv_pkg/CMakeFiles/CMakeDirectoryInformation.cmake"
   "ssr_pkg/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tortoise_pose/CMakeFiles/CMakeDirectoryInformation.cmake"
   "tortoise_spin_pkg/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -293,5 +298,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "srv_pkg/CMakeFiles/srv_pkg_genpy.dir/DependInfo.cmake"
   "ssr_pkg/CMakeFiles/pub2.dir/DependInfo.cmake"
   "ssr_pkg/CMakeFiles/pub.dir/DependInfo.cmake"
+  "tortoise_pose/CMakeFiles/sub_pose.dir/DependInfo.cmake"
   "tortoise_spin_pkg/CMakeFiles/control.dir/DependInfo.cmake"
   )

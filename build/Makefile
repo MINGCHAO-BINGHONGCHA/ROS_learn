@@ -883,6 +883,19 @@ pub/fast:
 .PHONY : pub/fast
 
 #=============================================================================
+# Target rules for targets named sub_pose
+
+# Build rule for target.
+sub_pose: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sub_pose
+.PHONY : sub_pose
+
+# fast build rule for target.
+sub_pose/fast:
+	$(MAKE) -f tortoise_pose/CMakeFiles/sub_pose.dir/build.make tortoise_pose/CMakeFiles/sub_pose.dir/build
+.PHONY : sub_pose/fast
+
+#=============================================================================
 # Target rules for targets named control
 
 # Build rule for target.
@@ -963,6 +976,7 @@ help:
 	@echo "... srv_pkg_genpy"
 	@echo "... pub2"
 	@echo "... pub"
+	@echo "... sub_pose"
 	@echo "... control"
 .PHONY : help
 

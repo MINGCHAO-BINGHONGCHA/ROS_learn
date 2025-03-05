@@ -522,10 +522,22 @@ ssr_pkg_SOURCE_DIR:STATIC=/home/test/demo/src/ssr_pkg
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
 
 //Value Computed by CMake
+tortoise_pose_BINARY_DIR:STATIC=/home/test/demo/build/tortoise_pose
+
+//Value Computed by CMake
+tortoise_pose_SOURCE_DIR:STATIC=/home/test/demo/src/tortoise_pose
+
+//Value Computed by CMake
 tortoise_spin_pkg_BINARY_DIR:STATIC=/home/test/demo/build/tortoise_spin_pkg
 
 //Value Computed by CMake
 tortoise_spin_pkg_SOURCE_DIR:STATIC=/home/test/demo/src/tortoise_spin_pkg
+
+//Value Computed by CMake
+tortoise_xy_show_pkg_BINARY_DIR:STATIC=/home/test/demo/build/tortoise_xy_show_pkg
+
+//Value Computed by CMake
+tortoise_xy_show_pkg_SOURCE_DIR:STATIC=/home/test/demo/src/tortoise_xy_show_pkg
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
@@ -678,7 +690,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

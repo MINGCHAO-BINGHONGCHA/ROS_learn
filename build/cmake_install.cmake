@@ -135,6 +135,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/test/demo/build/person_pkg/cmake_install.cmake")
   include("/home/test/demo/build/srv_pkg/cmake_install.cmake")
   include("/home/test/demo/build/ssr_pkg/cmake_install.cmake")
+  include("/home/test/demo/build/tortoise_pose/cmake_install.cmake")
   include("/home/test/demo/build/tortoise_spin_pkg/cmake_install.cmake")
 
 endif()
