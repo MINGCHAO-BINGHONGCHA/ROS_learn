@@ -882,6 +882,19 @@ pub/fast:
 	$(MAKE) -f ssr_pkg/CMakeFiles/pub.dir/build.make ssr_pkg/CMakeFiles/pub.dir/build
 .PHONY : pub/fast
 
+#=============================================================================
+# Target rules for targets named control
+
+# Build rule for target.
+control: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 control
+.PHONY : control
+
+# fast build rule for target.
+control/fast:
+	$(MAKE) -f tortoise_spin_pkg/CMakeFiles/control.dir/build.make tortoise_spin_pkg/CMakeFiles/control.dir/build
+.PHONY : control/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -950,6 +963,7 @@ help:
 	@echo "... srv_pkg_genpy"
 	@echo "... pub2"
 	@echo "... pub"
+	@echo "... control"
 .PHONY : help
 
 

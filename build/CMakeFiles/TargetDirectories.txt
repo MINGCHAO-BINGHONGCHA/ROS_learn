@@ -109,3 +109,11 @@
 /home/test/demo/build/ssr_pkg/CMakeFiles/list_install_components.dir
 /home/test/demo/build/ssr_pkg/CMakeFiles/rebuild_cache.dir
 /home/test/demo/build/ssr_pkg/CMakeFiles/pub.dir
+/home/test/demo/build/tortoise_spin_pkg/CMakeFiles/install/strip.dir
+/home/test/demo/build/tortoise_spin_pkg/CMakeFiles/install/local.dir
+/home/test/demo/build/tortoise_spin_pkg/CMakeFiles/edit_cache.dir
+/home/test/demo/build/tortoise_spin_pkg/CMakeFiles/test.dir
+/home/test/demo/build/tortoise_spin_pkg/CMakeFiles/install.dir
+/home/test/demo/build/tortoise_spin_pkg/CMakeFiles/list_install_components.dir
+/home/test/demo/build/tortoise_spin_pkg/CMakeFiles/rebuild_cache.dir
+/home/test/demo/build/tortoise_spin_pkg/CMakeFiles/control.dir
