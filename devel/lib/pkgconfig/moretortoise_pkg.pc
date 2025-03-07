@@ -1,0 +1,8 @@
+prefix=/home/test/demo/devel
+
+Name: moretortoise_pkg
+Description: Description of moretortoise_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -493,6 +493,19 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named set_turtle
+
+# Build rule for target.
+set_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 set_turtle
+.PHONY : set_turtle
+
+# fast build rule for target.
+set_turtle/fast:
+	$(MAKE) -f moretortoise_pkg/CMakeFiles/set_turtle.dir/build.make moretortoise_pkg/CMakeFiles/set_turtle.dir/build
+.PHONY : set_turtle/fast
+
+#=============================================================================
 # Target rules for targets named sub_define_node
 
 # Build rule for target.
@@ -946,6 +959,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... set_turtle"
 	@echo "... sub_define_node"
 	@echo "... _person_pkg_generate_messages_check_deps_Person"
 	@echo "... person_pkg_generate_messages_cpp"

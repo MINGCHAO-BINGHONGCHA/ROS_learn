@@ -6,6 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("atr_pkg")
+subdirs("moretortoise_pkg")
 subdirs("person_pkg")
 subdirs("srv_pkg")
 subdirs("ssr_pkg")
