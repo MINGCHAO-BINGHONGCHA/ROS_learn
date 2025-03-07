@@ -493,6 +493,19 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named background_color
+
+# Build rule for target.
+background_color: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 background_color
+.PHONY : background_color
+
+# fast build rule for target.
+background_color/fast:
+	$(MAKE) -f background_color_pkg/CMakeFiles/background_color.dir/build.make background_color_pkg/CMakeFiles/background_color.dir/build
+.PHONY : background_color/fast
+
+#=============================================================================
 # Target rules for targets named set_turtle
 
 # Build rule for target.
@@ -959,6 +972,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... background_color"
 	@echo "... set_turtle"
 	@echo "... sub_define_node"
 	@echo "... _person_pkg_generate_messages_check_deps_Person"

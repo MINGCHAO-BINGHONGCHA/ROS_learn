@@ -400,6 +400,12 @@ atr_pkg_BINARY_DIR:STATIC=/home/test/demo/build/atr_pkg
 //Value Computed by CMake
 atr_pkg_SOURCE_DIR:STATIC=/home/test/demo/src/atr_pkg
 
+//Value Computed by CMake
+background_color_pkg_BINARY_DIR:STATIC=/home/test/demo/build/background_color_pkg
+
+//Value Computed by CMake
+background_color_pkg_SOURCE_DIR:STATIC=/home/test/demo/src/background_color_pkg
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
 
@@ -696,7 +702,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
