@@ -519,6 +519,12 @@ rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake
 rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
 
 //Value Computed by CMake
+spin_func_pkg_BINARY_DIR:STATIC=/home/test/demo/build/spin_func_pkg
+
+//Value Computed by CMake
+spin_func_pkg_SOURCE_DIR:STATIC=/home/test/demo/src/spin_func_pkg
+
+//Value Computed by CMake
 srv_pkg_BINARY_DIR:STATIC=/home/test/demo/build/srv_pkg
 
 //Value Computed by CMake
@@ -532,6 +538,12 @@ ssr_pkg_SOURCE_DIR:STATIC=/home/test/demo/src/ssr_pkg
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
+
+//Value Computed by CMake
+time_pkg_BINARY_DIR:STATIC=/home/test/demo/build/time_pkg
+
+//Value Computed by CMake
+time_pkg_SOURCE_DIR:STATIC=/home/test/demo/src/time_pkg
 
 //Value Computed by CMake
 tortoise_pose_BINARY_DIR:STATIC=/home/test/demo/build/tortoise_pose
@@ -702,7 +714,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

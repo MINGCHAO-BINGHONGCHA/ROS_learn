@@ -701,6 +701,32 @@ person_pkg_genpy/fast:
 .PHONY : person_pkg_genpy/fast
 
 #=============================================================================
+# Target rules for targets named sub_spin
+
+# Build rule for target.
+sub_spin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sub_spin
+.PHONY : sub_spin
+
+# fast build rule for target.
+sub_spin/fast:
+	$(MAKE) -f spin_func_pkg/CMakeFiles/sub_spin.dir/build.make spin_func_pkg/CMakeFiles/sub_spin.dir/build
+.PHONY : sub_spin/fast
+
+#=============================================================================
+# Target rules for targets named spin_func
+
+# Build rule for target.
+spin_func: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 spin_func
+.PHONY : spin_func
+
+# fast build rule for target.
+spin_func/fast:
+	$(MAKE) -f spin_func_pkg/CMakeFiles/spin_func.dir/build.make spin_func_pkg/CMakeFiles/spin_func.dir/build
+.PHONY : spin_func/fast
+
+#=============================================================================
 # Target rules for targets named srv_pkg_genlisp
 
 # Build rule for target.
@@ -909,6 +935,19 @@ pub/fast:
 .PHONY : pub/fast
 
 #=============================================================================
+# Target rules for targets named time
+
+# Build rule for target.
+time: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 time
+.PHONY : time
+
+# fast build rule for target.
+time/fast:
+	$(MAKE) -f time_pkg/CMakeFiles/time.dir/build.make time_pkg/CMakeFiles/time.dir/build
+.PHONY : time/fast
+
+#=============================================================================
 # Target rules for targets named sub_pose
 
 # Build rule for target.
@@ -988,6 +1027,8 @@ help:
 	@echo "... person_pkg_generate_messages_nodejs"
 	@echo "... person_pkg_generate_messages_py"
 	@echo "... person_pkg_genpy"
+	@echo "... sub_spin"
+	@echo "... spin_func"
 	@echo "... srv_pkg_genlisp"
 	@echo "... srv_pkg_generate_messages_cpp"
 	@echo "... srv_pkg_generate_messages"
@@ -1004,6 +1045,7 @@ help:
 	@echo "... srv_pkg_genpy"
 	@echo "... pub2"
 	@echo "... pub"
+	@echo "... time"
 	@echo "... sub_pose"
 	@echo "... control"
 .PHONY : help
