@@ -506,6 +506,45 @@ background_color/fast:
 .PHONY : background_color/fast
 
 #=============================================================================
+# Target rules for targets named hello
+
+# Build rule for target.
+hello: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello
+.PHONY : hello
+
+# fast build rule for target.
+hello/fast:
+	$(MAKE) -f head_pkg/CMakeFiles/hello.dir/build.make head_pkg/CMakeFiles/hello.dir/build
+.PHONY : hello/fast
+
+#=============================================================================
+# Target rules for targets named hello_use
+
+# Build rule for target.
+hello_use: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_use
+.PHONY : hello_use
+
+# fast build rule for target.
+hello_use/fast:
+	$(MAKE) -f head_src_pkg/CMakeFiles/hello_use.dir/build.make head_src_pkg/CMakeFiles/hello_use.dir/build
+.PHONY : hello_use/fast
+
+#=============================================================================
+# Target rules for targets named head
+
+# Build rule for target.
+head: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 head
+.PHONY : head
+
+# fast build rule for target.
+head/fast:
+	$(MAKE) -f head_src_pkg/CMakeFiles/head.dir/build.make head_src_pkg/CMakeFiles/head.dir/build
+.PHONY : head/fast
+
+#=============================================================================
 # Target rules for targets named set_turtle
 
 # Build rule for target.
@@ -1012,6 +1051,9 @@ help:
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... background_color"
+	@echo "... hello"
+	@echo "... hello_use"
+	@echo "... head"
 	@echo "... set_turtle"
 	@echo "... sub_define_node"
 	@echo "... _person_pkg_generate_messages_check_deps_Person"

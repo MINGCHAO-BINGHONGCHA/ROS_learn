@@ -9,7 +9,8 @@
         "/opt/ros/noetic/include/**",
         "/home/test/demo/src/atr_pkg/include/**",
         "/home/test/demo/src/ssr_pkg/include/**",
-        "/usr/include/**"
+        "/usr/include/**",
+        "/home/test/demo/src/head_pkg/include/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

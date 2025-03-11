@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O2 -g -DNDEBUG  -shared -Wl,-soname,libhead.so -o /home/test/demo/devel/lib/libhead.so CMakeFiles/head.dir/src/hello_src.cpp.o 

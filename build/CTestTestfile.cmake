@@ -7,6 +7,8 @@
 subdirs("gtest")
 subdirs("atr_pkg")
 subdirs("background_color_pkg")
+subdirs("head_pkg")
+subdirs("head_src_pkg")
 subdirs("moretortoise_pkg")
 subdirs("person_pkg")
 subdirs("spin_func_pkg")

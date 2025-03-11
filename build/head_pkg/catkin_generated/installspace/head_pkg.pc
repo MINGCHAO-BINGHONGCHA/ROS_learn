@@ -1,0 +1,8 @@
+prefix=/home/test/demo/install
+
+Name: head_pkg
+Description: Description of head_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
