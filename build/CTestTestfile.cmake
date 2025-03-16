@@ -5,6 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("element_pkg")
 subdirs("atr_pkg")
 subdirs("background_color_pkg")
 subdirs("head_pkg")
@@ -15,5 +16,8 @@ subdirs("spin_func_pkg")
 subdirs("srv_pkg")
 subdirs("ssr_pkg")
 subdirs("time_pkg")
+subdirs("radar_pkg")
 subdirs("tortoise_pose")
 subdirs("tortoise_spin_pkg")
+subdirs("vel_pkg")
+subdirs("wpr_simulation")
