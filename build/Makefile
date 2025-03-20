@@ -1143,6 +1143,19 @@ imu_node/fast:
 .PHONY : imu_node/fast
 
 #=============================================================================
+# Target rules for targets named imu_vel_node
+
+# Build rule for target.
+imu_vel_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imu_vel_node
+.PHONY : imu_vel_node
+
+# fast build rule for target.
+imu_vel_node/fast:
+	$(MAKE) -f imu_vel_pkg/CMakeFiles/imu_vel_node.dir/build.make imu_vel_pkg/CMakeFiles/imu_vel_node.dir/build
+.PHONY : imu_vel_node/fast
+
+#=============================================================================
 # Target rules for targets named radar
 
 # Build rule for target.
@@ -2010,6 +2023,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... imu_node"
+	@echo "... imu_vel_node"
 	@echo "... radar"
 	@echo "... sub_pose"
 	@echo "... control"

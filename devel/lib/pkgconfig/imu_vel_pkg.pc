@@ -1,0 +1,8 @@
+prefix=/home/test/demo/devel
+
+Name: imu_vel_pkg
+Description: Description of imu_vel_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -185,6 +185,14 @@
 /home/test/demo/build/imu_pkg/CMakeFiles/test.dir
 /home/test/demo/build/imu_pkg/CMakeFiles/rebuild_cache.dir
 /home/test/demo/build/imu_pkg/CMakeFiles/edit_cache.dir
+/home/test/demo/build/imu_vel_pkg/CMakeFiles/install/strip.dir
+/home/test/demo/build/imu_vel_pkg/CMakeFiles/install/local.dir
+/home/test/demo/build/imu_vel_pkg/CMakeFiles/install.dir
+/home/test/demo/build/imu_vel_pkg/CMakeFiles/list_install_components.dir
+/home/test/demo/build/imu_vel_pkg/CMakeFiles/rebuild_cache.dir
+/home/test/demo/build/imu_vel_pkg/CMakeFiles/edit_cache.dir
+/home/test/demo/build/imu_vel_pkg/CMakeFiles/test.dir
+/home/test/demo/build/imu_vel_pkg/CMakeFiles/imu_vel_node.dir
 /home/test/demo/build/radar_pkg/CMakeFiles/install/strip.dir
 /home/test/demo/build/radar_pkg/CMakeFiles/install/local.dir
 /home/test/demo/build/radar_pkg/CMakeFiles/install.dir
