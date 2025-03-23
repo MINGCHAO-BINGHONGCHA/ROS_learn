@@ -1,0 +1,8 @@
+prefix=/home/test/demo/devel
+
+Name: define_msgs
+Description: Description of define_msgs
+Version: 0.0.0
+Cflags: -I/home/test/demo/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_generation message_runtime roscpp rospy std_msgs

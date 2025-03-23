@@ -1,2 +1,2 @@
-atr_pkg:background_color_pkg:element_pkg:head_pkg:head_src_pkg:imu_pkg:imu_vel_pkg:moretortoise_pkg:person_pkg:radar_pkg:spin_func_pkg:srv_pkg:ssr_pkg:time_pkg:tortoise_pose:tortoise_spin_pkg:vel_pkg:wpr_simulation
+atr_pkg:auto_cruise_pkg:background_color_pkg:define_msgs:define_pub_pkg:define_sub_pkg:element_pkg:head_pkg:head_src_pkg:imu_pkg:imu_vel_pkg:map_pkg:moretortoise_pkg:person_pkg:radar_pkg:spin_func_pkg:srv_pkg:ssr_pkg:time_pkg:tortoise_pose:tortoise_spin_pkg:vel_pkg:wpr_simulation
 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/test/demo/devel -DCMAKE_INSTALL_PREFIX=/home/test/demo/install -G Unix Makefiles

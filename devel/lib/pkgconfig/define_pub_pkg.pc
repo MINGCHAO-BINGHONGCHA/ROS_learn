@@ -1,0 +1,8 @@
+prefix=/home/test/demo/devel
+
+Name: define_pub_pkg
+Description: Description of define_pub_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

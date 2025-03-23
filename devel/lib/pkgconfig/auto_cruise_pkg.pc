@@ -1,0 +1,8 @@
+prefix=/home/test/demo/devel
+
+Name: auto_cruise_pkg
+Description: Description of auto_cruise_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
