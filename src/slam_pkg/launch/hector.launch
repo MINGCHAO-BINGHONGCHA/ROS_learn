@@ -1,0 +1,14 @@
+<launch>
+
+    <include file = "$(find wpr_simulation)/launch/wpb_stage_slam.launch"/>
+    <node pkg = "hector_mapping" type = "hector_mapping" name = "hector_mapping">
+        <param name = "map_update_distance_thresh" value = "0.1"/>
+        <param name = "map_update_angle_thresh" value = "0.1"/>
+        <param name = "map_pub_period" value = "0.1"/>
+
+    </node>
+    
+    <node pkg = "rviz" type = "rviz" name = "rviz" args = "-d /home/test/Documents/SLAM.rviz"/>
+    <node pkg = "auto_cruise_pkg" type = "auto_cruise_node" name = "auto_cruise" output = "screen"/>
+
+</launch>

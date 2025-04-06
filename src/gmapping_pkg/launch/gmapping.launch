@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find wpr_simulation)/launch/wpb_stage_robocup.launch"/>
+    <node pkg="rviz" type="rviz" name="rviz" args="-d /home/test/Documents/Gmapping.rviz"/>
+    <node pkg="gmapping" type="slam_gmapping" name="gmapping"/>
+    <node pkg="wpr_simulation" type="keyboard_vel_ctrl" name="keyboard_vel_ctrl"/>
+</launch>

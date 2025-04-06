@@ -6,6 +6,7 @@ ros::Publisher pub;
 int ncount = 50;
 void doMsg(sensor_msgs::LaserScan msg){
     float gap = msg.ranges[180];
+    float inf = std::numeric_limits<float>::infinity();
     
     geometry_msgs::Twist vel;
     ROS_INFO("距离：%.2f",gap);
@@ -15,7 +16,7 @@ void doMsg(sensor_msgs::LaserScan msg){
         return;
     }
 
-    if(gap < 1.5){
+    if(gap < 1.5 || gap == inf){
         if(msg.ranges[90] < msg.ranges[270]){
             vel.angular.z = 0.2; //左转
             

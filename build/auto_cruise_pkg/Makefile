@@ -182,81 +182,6 @@ auto_cruise_node/fast:
 	cd /home/test/demo/build && $(MAKE) -f auto_cruise_pkg/CMakeFiles/auto_cruise_node.dir/build.make auto_cruise_pkg/CMakeFiles/auto_cruise_node.dir/build
 .PHONY : auto_cruise_node/fast
 
-# Convenience name for target.
-auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/test/demo/build && $(MAKE) -f CMakeFiles/Makefile2 auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	cd /home/test/demo/build && $(MAKE) -f auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/test/demo/build && $(MAKE) -f CMakeFiles/Makefile2 auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-.PHONY : auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_nodejs: auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/test/demo/build && $(MAKE) -f auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-.PHONY : sensor_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/test/demo/build && $(MAKE) -f CMakeFiles/Makefile2 auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	cd /home/test/demo/build && $(MAKE) -f auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/test/demo/build && $(MAKE) -f CMakeFiles/Makefile2 auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-.PHONY : auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_eus: auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_eus
-
-# fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	cd /home/test/demo/build && $(MAKE) -f auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/test/demo/build && $(MAKE) -f CMakeFiles/Makefile2 auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/test/demo/build && $(MAKE) -f auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make auto_cruise_pkg/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
 src/auto_cruise_node.o: src/auto_cruise_node.cpp.o
 
 .PHONY : src/auto_cruise_node.o
@@ -298,11 +223,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... auto_cruise_node"
-	@echo "... sensor_msgs_generate_messages_py"
-	@echo "... sensor_msgs_generate_messages_nodejs"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_eus"
-	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... src/auto_cruise_node.o"
 	@echo "... src/auto_cruise_node.i"
 	@echo "... src/auto_cruise_node.s"
