@@ -1,10 +1,10 @@
 
 "use strict";
 
-let Coord = require('./Coord.js');
 let Rect = require('./Rect.js');
+let Coord = require('./Coord.js');
 
 module.exports = {
-  Coord: Coord,
   Rect: Rect,
+  Coord: Coord,
 };

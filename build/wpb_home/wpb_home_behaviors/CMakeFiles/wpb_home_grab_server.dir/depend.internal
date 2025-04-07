@@ -104,6 +104,7 @@ wpb_home/wpb_home_behaviors/CMakeFiles/wpb_home_grab_server.dir/src/wpb_home_gra
  /opt/ros/noetic/include/sensor_msgs/PointField.h
  /opt/ros/noetic/include/sensor_msgs/RegionOfInterest.h
  /opt/ros/noetic/include/sensor_msgs/image_encodings.h
+ /opt/ros/noetic/include/sound_play/SoundRequest.h
  /opt/ros/noetic/include/std_msgs/ColorRGBA.h
  /opt/ros/noetic/include/std_msgs/Empty.h
  /opt/ros/noetic/include/std_msgs/Header.h
