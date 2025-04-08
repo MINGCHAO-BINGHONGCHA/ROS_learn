@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/test/demo/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/test/demo/src/cv_pkg/include/**",
+        "/home/test/demo/src/head_pkg/include/**",
+        "/home/test/demo/src/head_src_pkg/include/**",
+        "/home/test/demo/src/wpb_home/wpb_home_bringup/include/**",
+        "/home/test/demo/src/wpb_home/wpb_home_tutorials/include/**",
+        "/home/test/demo/src/wpb_home/wpbh_local_planner/include/**",
+        "/home/test/demo/src/wpr_simulation/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

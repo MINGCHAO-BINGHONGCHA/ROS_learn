@@ -290,6 +290,7 @@
 /home/test/demo/build/nav_pkg/CMakeFiles/move_base_msgs_generate_messages_py.dir
 /home/test/demo/build/nav_pkg/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir
 /home/test/demo/build/nav_pkg/CMakeFiles/move_base_msgs_generate_messages_lisp.dir
+/home/test/demo/build/nav_pkg/CMakeFiles/nav_client_node.dir
 /home/test/demo/build/nav_pkg/CMakeFiles/move_base_msgs_generate_messages_eus.dir
 /home/test/demo/build/nav_pkg/CMakeFiles/install/strip.dir
 /home/test/demo/build/nav_pkg/CMakeFiles/move_base_msgs_generate_messages_cpp.dir
@@ -301,6 +302,14 @@
 /home/test/demo/build/auto_cruise_pkg/CMakeFiles/edit_cache.dir
 /home/test/demo/build/auto_cruise_pkg/CMakeFiles/test.dir
 /home/test/demo/build/auto_cruise_pkg/CMakeFiles/auto_cruise_node.dir
+/home/test/demo/build/cv_pkg/CMakeFiles/install/strip.dir
+/home/test/demo/build/cv_pkg/CMakeFiles/install/local.dir
+/home/test/demo/build/cv_pkg/CMakeFiles/install.dir
+/home/test/demo/build/cv_pkg/CMakeFiles/list_install_components.dir
+/home/test/demo/build/cv_pkg/CMakeFiles/rebuild_cache.dir
+/home/test/demo/build/cv_pkg/CMakeFiles/edit_cache.dir
+/home/test/demo/build/cv_pkg/CMakeFiles/test.dir
+/home/test/demo/build/cv_pkg/CMakeFiles/cv_node.dir
 /home/test/demo/build/imu_pkg/CMakeFiles/install/strip.dir
 /home/test/demo/build/imu_pkg/CMakeFiles/install/local.dir
 /home/test/demo/build/imu_pkg/CMakeFiles/install.dir

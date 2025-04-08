@@ -213,6 +213,21 @@ move_base_msgs_generate_messages_lisp/fast:
 .PHONY : move_base_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
+nav_pkg/CMakeFiles/nav_client_node.dir/rule:
+	cd /home/test/demo/build && $(MAKE) -f CMakeFiles/Makefile2 nav_pkg/CMakeFiles/nav_client_node.dir/rule
+.PHONY : nav_pkg/CMakeFiles/nav_client_node.dir/rule
+
+# Convenience name for target.
+nav_client_node: nav_pkg/CMakeFiles/nav_client_node.dir/rule
+
+.PHONY : nav_client_node
+
+# fast build rule for target.
+nav_client_node/fast:
+	cd /home/test/demo/build && $(MAKE) -f nav_pkg/CMakeFiles/nav_client_node.dir/build.make nav_pkg/CMakeFiles/nav_client_node.dir/build
+.PHONY : nav_client_node/fast
+
+# Convenience name for target.
 nav_pkg/CMakeFiles/move_base_msgs_generate_messages_eus.dir/rule:
 	cd /home/test/demo/build && $(MAKE) -f CMakeFiles/Makefile2 nav_pkg/CMakeFiles/move_base_msgs_generate_messages_eus.dir/rule
 .PHONY : nav_pkg/CMakeFiles/move_base_msgs_generate_messages_eus.dir/rule
@@ -242,6 +257,33 @@ move_base_msgs_generate_messages_cpp/fast:
 	cd /home/test/demo/build && $(MAKE) -f nav_pkg/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make nav_pkg/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build
 .PHONY : move_base_msgs_generate_messages_cpp/fast
 
+src/nav_client_node.o: src/nav_client_node.cpp.o
+
+.PHONY : src/nav_client_node.o
+
+# target to build an object file
+src/nav_client_node.cpp.o:
+	cd /home/test/demo/build && $(MAKE) -f nav_pkg/CMakeFiles/nav_client_node.dir/build.make nav_pkg/CMakeFiles/nav_client_node.dir/src/nav_client_node.cpp.o
+.PHONY : src/nav_client_node.cpp.o
+
+src/nav_client_node.i: src/nav_client_node.cpp.i
+
+.PHONY : src/nav_client_node.i
+
+# target to preprocess a source file
+src/nav_client_node.cpp.i:
+	cd /home/test/demo/build && $(MAKE) -f nav_pkg/CMakeFiles/nav_client_node.dir/build.make nav_pkg/CMakeFiles/nav_client_node.dir/src/nav_client_node.cpp.i
+.PHONY : src/nav_client_node.cpp.i
+
+src/nav_client_node.s: src/nav_client_node.cpp.s
+
+.PHONY : src/nav_client_node.s
+
+# target to generate assembly for a file
+src/nav_client_node.cpp.s:
+	cd /home/test/demo/build && $(MAKE) -f nav_pkg/CMakeFiles/nav_client_node.dir/build.make nav_pkg/CMakeFiles/nav_client_node.dir/src/nav_client_node.cpp.s
+.PHONY : src/nav_client_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -257,9 +299,13 @@ help:
 	@echo "... move_base_msgs_generate_messages_py"
 	@echo "... move_base_msgs_generate_messages_nodejs"
 	@echo "... move_base_msgs_generate_messages_lisp"
+	@echo "... nav_client_node"
 	@echo "... move_base_msgs_generate_messages_eus"
 	@echo "... install/strip"
 	@echo "... move_base_msgs_generate_messages_cpp"
+	@echo "... src/nav_client_node.o"
+	@echo "... src/nav_client_node.i"
+	@echo "... src/nav_client_node.s"
 .PHONY : help
 
 

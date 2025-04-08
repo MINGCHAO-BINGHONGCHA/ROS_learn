@@ -1793,6 +1793,19 @@ move_base_msgs_generate_messages_lisp/fast:
 .PHONY : move_base_msgs_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named nav_client_node
+
+# Build rule for target.
+nav_client_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_client_node
+.PHONY : nav_client_node
+
+# fast build rule for target.
+nav_client_node/fast:
+	$(MAKE) -f nav_pkg/CMakeFiles/nav_client_node.dir/build.make nav_pkg/CMakeFiles/nav_client_node.dir/build
+.PHONY : nav_client_node/fast
+
+#=============================================================================
 # Target rules for targets named move_base_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -1830,6 +1843,19 @@ auto_cruise_node: cmake_check_build_system
 auto_cruise_node/fast:
 	$(MAKE) -f auto_cruise_pkg/CMakeFiles/auto_cruise_node.dir/build.make auto_cruise_pkg/CMakeFiles/auto_cruise_node.dir/build
 .PHONY : auto_cruise_node/fast
+
+#=============================================================================
+# Target rules for targets named cv_node
+
+# Build rule for target.
+cv_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cv_node
+.PHONY : cv_node
+
+# fast build rule for target.
+cv_node/fast:
+	$(MAKE) -f cv_pkg/CMakeFiles/cv_node.dir/build.make cv_pkg/CMakeFiles/cv_node.dir/build
+.PHONY : cv_node/fast
 
 #=============================================================================
 # Target rules for targets named imu_node
@@ -3932,9 +3958,11 @@ help:
 	@echo "... move_base_msgs_generate_messages_py"
 	@echo "... move_base_msgs_generate_messages_nodejs"
 	@echo "... move_base_msgs_generate_messages_lisp"
+	@echo "... nav_client_node"
 	@echo "... move_base_msgs_generate_messages_eus"
 	@echo "... move_base_msgs_generate_messages_cpp"
 	@echo "... auto_cruise_node"
+	@echo "... cv_node"
 	@echo "... imu_node"
 	@echo "... imu_vel_node"
 	@echo "... radar"
